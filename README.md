@@ -17,8 +17,12 @@ vite는 JavaScript 애플리케이션을 개발하기 위한 빠르고 경량화
 
 5. 플러그인 생태계: Vite에는 다양한 플러그인이 제공되며, 이를 사용하여 프로젝트에 추가 기능을 쉽게 통합할 수 있습니다.
 
+## 구현 기능
+- 구글 폰트 적용
 ## 트러블 슈팅
 <details>
-<summary>문제</summary>
-내용
+<summary>git 업로드 버그</summary>
+권한으로 인한 업로드 버그 > 해결
+git remote set-url origin https://chfhr11@github.com/chfhr11/vite-project2023.git
+
 </details>
