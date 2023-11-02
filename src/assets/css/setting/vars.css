@@ -2,21 +2,24 @@
     --mainEng-font: "Montserrat";
     --mainKor-font: "nanumSquareNeo";
     --mainNum-font: "gmarket";
+    --intro-font: "Playfair Display";
+    --intro-sub-font: 'Noto Serif KR';
 
-    --mainBg-color: "#fff";
-    --subBg100: "#fff";
-    --subBg200: "#fff";
-    --subBg300: "#fff";
-    --subBg400: "#fff";
-    --subBg500: "#fff";
+    --subfont-color: rgb(103, 106, 255);
+    --mainBg-color: #f0fff8;
+    --subBg100: #e8fff4;
+    --subBg200: #d8ffec;
+    --subBg300: #cbffe6;
+    --subBg400: #afffd9;
+    --subBg500: #98ffcf;
 
     --white: #fff;
     --black: #000;
-    --black100: #000;
-    --black200: #000;
-    --black300: #000;
-    --black400: #000;
-    --black500: #000;
+    --black100: #111;
+    --black200: #222;
+    --black300: #333;
+    --black400: #444;
+    --black500: #555;
 
     /* 기본 폰트 설정 */
     font-family: var(--mainEng-font), var(--mainKor-font);
