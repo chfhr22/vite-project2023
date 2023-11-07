@@ -6,20 +6,30 @@
     --intro-sub-font: 'Noto Serif KR';
 
     --subfont-color: rgb(103, 106, 255);
-    --mainBg-color: #f0fff8;
-    --subBg100: #e8fff4;
-    --subBg200: #d8ffec;
-    --subBg300: #cbffe6;
-    --subBg400: #afffd9;
-    --subBg500: #98ffcf;
+    /* --mainBg-color: #f0fff8; */
+    --mainBg-color: #F4FCD9;
+    --subBg100: #C5D8A4;
+    --subBg200: #BB9981;
+    --subBg300: #FFD8BC;
+    --subBg400: #DCB69A;
+    --subBg500: #9F8471;
+    --subBg600: #7F6E61;
 
     --white: #fff;
+    --white100: #eeeeee;
+    --white200: #e1e1e1;
+    --white300: #d9d9d9;
+    --white400: #ddd;
+    --white500: #d1d1d1;
+
     --black: #000;
     --black100: #111;
     --black200: #222;
     --black300: #333;
     --black400: #444;
     --black500: #555;
+
+    --mainFont-color: #534340;
 
     /* 기본 폰트 설정 */
     font-family: var(--mainEng-font), var(--mainKor-font);

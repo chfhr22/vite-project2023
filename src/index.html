@@ -1,101 +1,460 @@
 <!DOCTYPE html>
 <html lang="ko">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Vite를 이용한 사이트 만들기👍</title>
 
-        <link rel="icon" href="assets/img/watermelon.svg">
-        <link rel="stylesheet" href="assets/css/style.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vite를 이용한 사이트 만들기👍</title>
 
-    </head>
-    <body>
-        <div id="skip">
-            <a href="#header">헤더영역 바로가기</a>
-            <a href="#intro">인트로 바로가기</a>
-            <a href="#skill">스킬 바로가기</a>
-            <a href="#site">사이트 바로가기</a>
-            <a href="#port">포트폴리오 바로가기</a>
-            <a href="#contact">연락처 바로가기</a>
-            <a href="#footer">푸터 바로가기</a>
-        </div>
-        <!-- //skip -->
+    <link rel="icon" href="assets/img/watermelon.svg">
+    <link rel="stylesheet" href="assets/css/style.css">
 
-        <header id="header" role="banner">
-            <div class="header__inner">
-                <div class="header__logo">
-                    <a href="#">green portfolio<em>vite</em></a>
-                </div>
-                <nav class="header__nav" role="navigation" aria-label="메인메뉴">
-                    <ul>
-                        <li><a href="#intro">intro</a></li>
-                        <li><a href="#skill">skill</a></li>
-                        <li><a href="#site">site</a></li>
-                        <li><a href="#portfolio">portfolio</a></li>
-                        <li><a href="#contact">contact</a></li>
-                    </ul>
-                </nav>
-                <div class="header__nav__mobile"></div>
+</head>
+
+<body>
+    <div id="skip">
+        <a href="#header">헤더영역 바로가기</a>
+        <a href="#intro">인트로 바로가기</a>
+        <a href="#skill">스킬 바로가기</a>
+        <a href="#site">사이트 바로가기</a>
+        <a href="#port">포트폴리오 바로가기</a>
+        <a href="#contact">연락처 바로가기</a>
+        <a href="#footer">푸터 바로가기</a>
+    </div>
+    <!-- //skip -->
+
+    <header id="header" role="banner">
+        <div class="header__inner">
+            <div class="header__logo">
+                <a href="#">green<em>vite</em></a>
             </div>
-        </header>
-        <!-- //header -->
+            <nav class="header__nav" role="navigation" aria-label="메인메뉴">
+                <ul>
+                    <li><a href="#intro">intro</a></li>
+                    <li><a href="#skill">skill</a></li>
+                    <li><a href="#site">site</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </nav>
+            <div class="header__nav__mobile" id="headerToggle" aria-controls="primary-menu" aria-expanded="false"
+                role="button">
+                <span></span>
+            </div>
+        </div>
+    </header>
+    <!-- //header -->
 
-        <main id="main" role="main">
-            <section id="intro">
-                <div class="intro__inner">
-                    <h1 class="intro__title">
-                        green portfolio
-                    </h1>
-                    <div class="intro__lines" aria-hidden="true">
-                        <span class="line"></span>
-                        <span class="line"></span>
-                        <span class="line"></span>
-                        <span class="line"></span>
-                        <span class="line"></span>
-                        <span class="line"></span>
-                        <span class="line"></span>
+    <main id="main" role="main">
+        <section id="intro">
+            <div class="intro__inner">
+                <h1 class="intro__title">
+                    green portfolio
+                </h1>
+                <div class="intro__lines" aria-hidden="true">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+
+                <div class="intro__text">
+                    <div class="text">
+                        <div>timing </div>
+                        <div>is</div>
+                        <div>now</div>
+                    </div>
+                    <div class="img"></div>
+                </div>
+
+                <div class="intro__lines bottom" aria-hidden="true">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+            </div>
+        </section>
+        <!-- //intro -->
+
+        <section id="skill">
+            <div class="skill__inner">
+                <h2 class="skill__title">
+                    challenge <em>나의 도전</em>
+                </h2>
+                <div class="skill__desc">
+                    <div>
+                        <span>1.</span>
+                        <h3>나의 도전</h3>
+                        <p>
+                            도전의지를 가지는 것은 성공의 첫걸음입니다.
+                            어떤 어려움이든 극복 가능하다는 자신감을 가지고,
+                            두려움을 떨쳐버리고 도전하세요.
+                        </p>
                     </div>
 
-                    <div class="intro__text">
-                        <div class="text">
-                            <div>talent is</div>
-                            <div>found at the end of the</div>
-                            <div>effort</div>
-                        </div>
-                        <div class="img"></div>
+                    <div>
+                        <span>2.</span>
+                        <h3>좌우명.</h3>
+                        <p>
+                            노력은 배신하지 않는다.n도전의지를 가지는 것은 성공의 첫걸음입니다.
+                            어떤 어려움이든 극복 가능하다는 자신감을 가지고,
+                            두려움을 떨쳐버리고 도전하세요.
+                        </p>
+                    </div>
+
+                    <div>
+                        <span>3.</span>
+                        <h3>목표</h3>
+                        <p>
+                            사용자 경험 향상
+                            웹 성능 최적화도전의지를 가지는 것은 성공의 첫걸음입니다.
+                            어떤 어려움이든 극복 가능하다는 자신감을 가지고,
+                            두려움을 떨쳐버리고 도전하세요.
+                        </p>
                     </div>
                 </div>
-            </section>
-            <!-- //intro -->
+            </div>
+        </section>
+        <!-- //skill -->
 
-            <section id="skill">
-                skill
-            </section>
-            <!-- //skill -->
+        <section id="site">
+            <div class="site__inner">
+                <div class="site__title">
+                    Site Coding <em>나의 작업물</em>
+                </div>
+                <div class="site__wrap">
+                    <div class="site__item s1">
+                        <span class="num">1. </span>
+                        <div class="text">
+                            <div>make</div>
+                            <div>site complit width</div>
+                            <div>webstandard</div>
+                        </div>
+                        <h3 class="title">
+                            VITE를 이용한 사이트 제작
+                        </h3>
+                        <div class="btn">
+                            <a href="#">code</a>
+                            <a href="#">view</a>
+                        </div>
+                        <div class="info">
+                            <span>site coding</span>
+                            <span>production period : two days</span>
+                            <span>use stack : html5/css, css variable, vite</span>
+                        </div>
+                    </div>
+                    <div class="site__item s2">
+                        <span class="num">2. </span>
+                        <div class="text">
+                            <div>make</div>
+                            <div>site complit width</div>
+                            <div>webstandard</div>
+                        </div>
+                        <h3 class="title">
+                            VITE를 이용한 사이트 제작
+                        </h3>
+                        <div class="btn">
+                            <a href="#">code</a>
+                            <a href="#">view</a>
+                        </div>
+                        <div class="info">
+                            <span>site coding</span>
+                            <span>production period : two days</span>
+                            <span>use stack : html5/css, css variable, vite</span>
+                        </div>
+                    </div>
+                    <div class="site__item s3">
+                        <span class="num">3. </span>
+                        <div class="text">
+                            <div>make</div>
+                            <div>site complit width</div>
+                            <div>webstandard</div>
+                        </div>
+                        <h3 class="title">
+                            VITE를 이용한 사이트 제작
+                        </h3>
+                        <div class="btn">
+                            <a href="#">code</a>
+                            <a href="#">view</a>
+                        </div>
+                        <div class="info">
+                            <span>site coding</span>
+                            <span>production period : two days</span>
+                            <span>use stack : html5/css, css variable, vite</span>
+                        </div>
+                    </div>
+                    <div class="site__item s4">
+                        <span class="num">4. </span>
+                        <div class="text">
+                            <div>make</div>
+                            <div>site complit width</div>
+                            <div>webstandard</div>
+                        </div>
+                        <h3 class="title">
+                            VITE를 이용한 사이트 제작
+                        </h3>
+                        <div class="btn">
+                            <a href="#">code</a>
+                            <a href="#">view</a>
+                        </div>
+                        <div class="info">
+                            <span>site coding</span>
+                            <span>production period : two days</span>
+                            <span>use stack : html5/css, css variable, vite</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- //site -->
 
-            <section id="site">
-                site
-            </section>
-            <!-- //site -->
+        <section id="port">
+            <div class="port__inner">
+                <div class="port__title">
+                    portfolio <em>포폴 작업물</em>
+                </div>
+                <div class="port__wrap">
+                    <div class="port__item p1">
+                        <span class="num">01.</span>
+                        <a href="#">
+                            <img src="assets/img/port01.jpg" alt="">
+                        </a>
+                        <h3 class="title">리액트를 이용한 포트폴리오</h3>
+                        <p class="desc">
+                            디자인을 통해~~~~~~리액트를 이용한 포트폴리오리액트를 이용한 포트폴리오리액트를 이용한 포트폴리오리액트를 이용한 포트폴리오
+                            리액트를 이용한 포트폴리오리액트를 이용한 포트폴리오리액트를 이용한 포트폴리오리액트를 이용한 포트폴리오
+                            이용한 포트폴리오리액트를 이용한 포트폴리오
+                        </p>
+                        <a href="#" class="view">사이트 보기</a>
+                    </div>
+                    <div class="port__item p2">
+                        <span class="num">02.</span>
+                        <a href="#">
+                            <img src="assets/img/port02.jpg" alt="">
+                        </a>
+                        <h3 class="title">리액트를 이용한 포트폴리오</h3>
+                        <p class="desc">
+                            디자인을 통해~~~~~~리액트를 이용한 포트폴리오리액트를 이용한 포트폴리오리액트를 이용한 포트폴리오리액트를 이용한 포트폴리오
+                            리액트를 이용한 포트폴리오리액트를 이용한 포트폴리오리액트를 이용한 포트폴리오리액트를 이용한 포트폴리오
+                            이용한 포트폴리오리액트를 이용한 포트폴리오
+                        </p>
+                        <a href="#" class="view">사이트 보기</a>
+                    </div>
+                    <div class="port__item p3">
+                        <span class="num">03.</span>
+                        <a href="#">
+                            <img src="assets/img/port03.jpg" alt="">
+                        </a>
+                        <h3 class="title">리액트를 이용한 포트폴리오</h3>
+                        <p class="desc">
+                            디자인을 통해~~~~~~리액트를 이용한 포트폴리오리액트를 이용한 포트폴리오리액트를 이용한 포트폴리오리액트를 이용한 포트폴리오
+                            리액트를 이용한 포트폴리오리액트를 이용한 포트폴리오리액트를 이용한 포트폴리오리액트를 이용한 포트폴리오
+                            이용한 포트폴리오리액트를 이용한 포트폴리오
+                        </p>
+                        <a href="#" class="view">사이트 보기</a>
+                    </div>
+                    <div class="port__item p4">
+                        <span class="num">04.</span>
+                        <a href="#">
+                            <img src="assets/img/port04.jpg" alt="">
+                        </a>
+                        <h3 class="title">리액트를 이용한 포트폴리오</h3>
+                        <p class="desc">
+                            디자인을 통해~~~~~~리액트를 이용한 포트폴리오리액트를 이용한 포트폴리오리액트를 이용한 포트폴리오리액트를 이용한 포트폴리오
+                            리액트를 이용한 포트폴리오리액트를 이용한 포트폴리오리액트를 이용한 포트폴리오리액트를 이용한 포트폴리오
+                            이용한 포트폴리오리액트를 이용한 포트폴리오
+                        </p>
+                        <a href="#" class="view">사이트 보기</a>
+                    </div>
+                    <div class="port__item p5">
+                        <span class="num">05.</span>
+                        <a href="#">
+                            <img src="assets/img/port05.jpg" alt="">
+                        </a>
+                        <h3 class="title">리액트를 이용한 포트폴리오</h3>
+                        <p class="desc">
+                            디자인을 통해~~~~~~리액트를 이용한 포트폴리오리액트를 이용한 포트폴리오리액트를 이용한 포트폴리오리액트를 이용한 포트폴리오
+                            리액트를 이용한 포트폴리오리액트를 이용한 포트폴리오리액트를 이용한 포트폴리오리액트를 이용한 포트폴리오
+                            이용한 포트폴리오리액트를 이용한 포트폴리오
+                        </p>
+                        <a href="#" class="view">사이트 보기</a>
+                    </div>
+                    <div class="port__item p6">
+                        <span class="num">06.</span>
+                        <a href="#">
+                            <img src="assets/img/port01.jpg" alt="">
+                        </a>
+                        <h3 class="title">리액트를 이용한 포트폴리오</h3>
+                        <p class="desc">
+                            디자인을 통해~~~~~~리액트를 이용한 포트폴리오리액트를 이용한 포트폴리오리액트를 이용한 포트폴리오리액트를 이용한 포트폴리오
+                            리액트를 이용한 포트폴리오리액트를 이용한 포트폴리오리액트를 이용한 포트폴리오리액트를 이용한 포트폴리오
+                            이용한 포트폴리오리액트를 이용한 포트폴리오
+                        </p>
+                        <a href="#" class="view">사이트 보기</a>
+                    </div>
+                    <div class="port__item p7">
+                        <span class="num">07.</span>
+                        <a href="#">
+                            <img src="assets/img/port02.jpg" alt="">
+                        </a>
+                        <h3 class="title">리액트를 이용한 포트폴리오</h3>
+                        <p class="desc">
+                            디자인을 통해~~~~~~리액트를 이용한 포트폴리오리액트를 이용한 포트폴리오리액트를 이용한 포트폴리오리액트를 이용한 포트폴리오
+                            리액트를 이용한 포트폴리오리액트를 이용한 포트폴리오리액트를 이용한 포트폴리오리액트를 이용한 포트폴리오
+                            이용한 포트폴리오리액트를 이용한 포트폴리오
+                        </p>
+                        <a href="#" class="view">사이트 보기</a>
+                    </div>
+                    <div class="port__item p8">
+                        <span class="num">08.</span>
+                        <a href="#">
+                            <img src="assets/img/port03.jpg" alt="">
+                        </a>
+                        <h3 class="title">리액트를 이용한 포트폴리오</h3>
+                        <p class="desc">
+                            디자인을 통해~~~~~~리액트를 이용한 포트폴리오리액트를 이용한 포트폴리오리액트를 이용한 포트폴리오리액트를 이용한 포트폴리오
+                            리액트를 이용한 포트폴리오리액트를 이용한 포트폴리오리액트를 이용한 포트폴리오리액트를 이용한 포트폴리오
+                            이용한 포트폴리오리액트를 이용한 포트폴리오
+                        </p>
+                        <a href="#" class="view">사이트 보기</a>
+                    </div>
+                    <div class="port__item p9">
+                        <span class="num">09.</span>
+                        <a href="#">
+                            <img src="assets/img/port04.jpg" alt="">
+                        </a>
+                        <h3 class="title">리액트를 이용한 포트폴리오</h3>
+                        <p class="desc">
+                            디자인을 통해~~~~~~리액트를 이용한 포트폴리오리액트를 이용한 포트폴리오리액트를 이용한 포트폴리오리액트를 이용한 포트폴리오
+                            리액트를 이용한 포트폴리오리액트를 이용한 포트폴리오리액트를 이용한 포트폴리오리액트를 이용한 포트폴리오
+                            이용한 포트폴리오리액트를 이용한 포트폴리오
+                        </p>
+                        <a href="#" class="view">사이트 보기</a>
+                    </div>
+                    <div class="port__item p10">
+                        <span class="num">10.</span>
+                        <a href="#">
+                            <img src="assets/img/port05.jpg" alt="">
+                        </a>
+                        <h3 class="title">리액트를 이용한 포트폴리오</h3>
+                        <p class="desc">
+                            디자인을 통해~~~~~~리액트를 이용한 포트폴리오리액트를 이용한 포트폴리오리액트를 이용한 포트폴리오리액트를 이용한 포트폴리오
+                            리액트를 이용한 포트폴리오리액트를 이용한 포트폴리오리액트를 이용한 포트폴리오리액트를 이용한 포트폴리오
+                            이용한 포트폴리오리액트를 이용한 포트폴리오
+                        </p>
+                        <a href="#" class="view">사이트 보기</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- //port -->
 
-            <section id="port">
-                port
-            </section>
-            <!-- //port -->
+        <section id="contact">
+            <div class="contact__inner">
+                <h2 class="contact__title">Contact</h2>
 
-            <section id="contact">
-                contact
-            </section>
-            <!-- //contact -->
+                <div class="contact__lines" aria-hidden="true">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+                <div class="contact__text">
+                    <div class="text">
+                        <div>
+                            <a href="#">KAKAO : chfhrdk_1</a>
+                        </div>
+                        <div>
+                            <a href="#">chfhrdk_1@naver.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact__lines bottom" aria-hidden="true">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+            </div>
+        </section>
+        <!-- //contact -->
 
-        </main>
-        <!-- //main -->
+    </main>
+    <!-- //main -->
 
-        <footer id="footer" role="contentinfo">
-            footer
-        </footer>
-        <!-- //footer -->
+    <footer id="footer" role="contentinfo">
+        <div class="footer__inner">
+            <h2 class="footer__text">
+                <div>green</div>
+                <div>@green</div>
+            </h2>
+            <div class="footer__info">
+                <div class="left">
+                    <div class="title">
+                        <a href="#">sign up</a>
+                    </div>
+                    <p class="desc">회원가입을 하시면 댓글과 게시판 기능을 이용할 수 있습니다.</p>
+                </div>
+                <div class="right">
+                    <h3>social</h3>
+                    <ul>
+                        <li>
+                            <a href="https://www.youtube.com/@Webstoryboy">youtube</a>
+                            <em>유튜브에 오시면 더 많은 강의를 볼 수 있습니다.</em>
+                        </li>
+                        <li>
+                            <a href="https://github.com/webstoryboy">github</a>
+                            <em>깃헙에 들어오시면 모든 소스를 볼 수 있습니다.</em>
+                        </li>
+                        <li>
+                            <a href="https://webstoryboy.co.kr">tistory</a>
+                            <em>티스토리에 들어오시면 좋은 정보 볼 수 있습니다.</em>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/playlist?list=PL4UVBBIc6giL8-6jvrClimg0cFL-Muqiq">gsap</a>
+                            <em>GSAP를 공부하시고 오면 도움이 됩니다.</em>
+                        </li>
+                        <li>
+                            <a href="https://github.com/webstoryboy/port2023-vite">vite</a>
+                            <em>비트 강의도 곧 오픈 예정입니다.</em>
+                        </li>
+                        <li>
+                            <a href="https://github.com/webstoryboy/port2023-react">react</a>
+                            <em>리액트 강의도 곧 오픈 예정입니다.</em>
+                        </li>
+                        <li>
+                            <a href="https://github.com/webstoryboy/port2023-vue">vue</a>
+                            <em>뷰 강의도 곧 오픈 예정입니다.</em>
+                        </li>
+                        <li>
+                            <a href="https://github.com/webstoryboy/port2023-next">next</a>
+                            <em>넥스트 강의도 곧 오픈 예정입니다.</em>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__right">
+                &copy; 2023 green<br />
+                이 사이트는 비트를 이용하여 제작하였습니다.
+            </div>
+        </div>
+    </footer>
+    <!-- //footer -->
 
-        <script type="module" src="assets/js/main.js"></script>
-    </body>
+    <script type="module" src="assets/js/main.js"></script>
+</body>
+
 </html>
