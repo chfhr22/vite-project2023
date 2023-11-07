@@ -1,4 +1,5 @@
 # vite를 이용한 포트폴리오 사이트 만들기
+https://green-vite-project.netlify.app/
 
 ## vite를 사용하는 이유
 vite란? [vite](https://ko.vitejs.dev/guide/)
